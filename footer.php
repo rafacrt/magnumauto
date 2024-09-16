@@ -79,26 +79,28 @@
     <i class="fa fa-angle-double-up"></i>
 </a>
 
-<script src="/assets/js/jquery-1.12.4.min.js"></script>
-<script src="/assets/js/jquery.plugin-countdown.min.js"></script>
-<script src="/assets/js/jquery-countdown.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/owl.carousel.min.js"></script>
-<script src="/assets/js/magnific-popup.min.js"></script>
-<script src="/assets/js/isotope.min.js"></script>
-<script src="/assets/js/jquery.scrollbar.min.js"></script>
-<script src="/assets/js/jquery-ui.min.js"></script>
-<script src="/assets/js/mobile-menu.js"></script>
-<script src="/assets/js/chosen.min.js"></script>
-<script src="/assets/js/slick.js"></script>
-<script src="/assets/js/jquery.elevateZoom.min.js"></script>
-<script src="/assets/js/jquery.actual.min.js"></script>
-<script src="/assets/js/fancybox/source/jquery.fancybox.js"></script>
-<script src="/assets/js/lightbox.min.js"></script>
-<script src="/assets/js/owl.thumbs.min.js"></script>
-<script src="/assets/js/jquery.scrollbar.min.js"></script>
+<script src="magnumauto/assets/js/jquery-1.12.4.min.js"></script>
+<script src="magnumauto/assets/js/jquery.plugin-countdown.min.js"></script>
+<script src="magnumauto/assets/js/jquery-countdown.min.js"></script>
+<script src="magnumauto/assets/js/bootstrap.min.js"></script>
+<script src="magnumauto/assets/js/owl.carousel.min.js"></script>
+<script src="magnumauto/assets/js/magnific-popup.min.js"></script>
+<script src="magnumauto/assets/js/isotope.min.js"></script>
+<script src="magnumauto/assets/js/jquery.scrollbar.min.js"></script>
+<script src="magnumauto/assets/js/jquery-ui.min.js"></script>
+<script src="magnumauto/assets/js/mobile-menu.js"></script>
+<script src="magnumauto/assets/js/chosen.min.js"></script>
+
+<script src="magnumauto/assets/js/jquery.elevateZoom.min.js"></script>
+<script src="magnumauto/assets/js/jquery.actual.min.js"></script>
+<script src="magnumauto/assets/js/fancybox/source/jquery.fancybox.js"></script>
+<script src="magnumauto/assets/js/lightbox.min.js"></script>
+<script src="magnumauto/assets/js/owl.thumbs.min.js"></script>
+<script src="magnumauto/assets/js/jquery.scrollbar.min.js"></script>
 <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
-<script src="/assets/js/frontend-plugin.js"></script>
+<script src="magnumauto/assets/js/frontend-plugin.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

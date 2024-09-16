@@ -1,5 +1,5 @@
 <html>
 <?php
-header('Location: https://magnumauto.com.br/home');
+header('Location: http://localhost/magnumauto/home');
 exit;
 ?>

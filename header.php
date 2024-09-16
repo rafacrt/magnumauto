@@ -20,34 +20,35 @@ const URL_BASE = "";
     <meta property="og:url" content="https://www.magnumauto.com.br/">
     <meta property="og:title" content="Magnum — Limpeza Automotiva">
     <meta property="og:description" content="Empresa que atua no ramo de produtos para limpeza e estética automotiva, com 15 anos de experiência.">
-    <meta property="og:image" content="/assets/images/favicon.png">
+    <meta property="og:image" content="/magnumauto/assets/images/favicon.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.magnumauto.com.br/">
     <meta property="twitter:title" content="Magnum — Limpeza Automotiva">
     <meta property="twitter:description" content="Empresa que atua no ramo de produtos para limpeza e estética automotiva, com 15 anos de experiência.">
-    <meta property="twitter:image" content="/assets/images/favicon.png">
+    <meta property="twitter:image" content="/magnumauto/assets/images/favicon.png">
 
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="/magnumauto/assets/images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/animate.min.css">
-    <link rel="stylesheet" href="/assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="/assets/css/slick.css">
-    <link rel="stylesheet" href="/assets/css/chosen.min.css">
-    <link rel="stylesheet" href="/assets/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="/assets/css/magnific-popup.min.css">
-    <link rel="stylesheet" href="/assets/css/lightbox.min.css">
-    <link rel="stylesheet" href="/assets/js/fancybox/source/jquery.fancybox.css">
-    <link rel="stylesheet" href="/assets/css/jquery.scrollbar.min.css">
-    <link rel="stylesheet" href="/assets/css/mobile-menu.css">
-    <link rel="stylesheet" href="/assets/fonts/flaticon/flaticon.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/slick.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/chosen.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/js/fancybox/source/jquery.fancybox.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/jquery.scrollbar.min.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/mobile-menu.css">
+    <link rel="stylesheet" href="/magnumauto/assets/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="/magnumauto/assets/css/style.css">
+
 </head>
 
 <body class="home">
@@ -57,7 +58,7 @@ const URL_BASE = "";
                 <div class="header-nav-wapper main-menu-wapper">
                     <div class="logo" style="margin-top:15px">
                         <a href="home">
-                            <img src="../assets/images/logo.png" alt="logo">
+                            <img src="/magnumauto/assets/images/logo.png" alt="logo">
                         </a>
                     </div>
                     <div class="header-nav">
@@ -201,7 +202,7 @@ const URL_BASE = "";
             <div class="item mobile-logo">
                 <div class="logo">
                     <a href="#">
-                        <img src="../assets/images/logo.png" alt="img">
+                        <img src="/magnumauto/assets/images/logo.png" alt="img">
                     </a>
                 </div>
             </div>

@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <style>
+        .form-control-wrapper {
+            margin-bottom: 20px;
+        }
+
+        .label-nome,
+        .label-perfil,
+        .label-cpf,
+        .label-email,
+        .label-telefone,
+        .label-cidade,
+        .label-estado,
+        .label-ensino-medio,
+        .label-nome-escola,
+        .label-acompanhado,
+        .label-acompanhantes,
+        .label-cpf-acompanhantes,
+        .label-termos {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .input-nome,
+        .input-cpf,
+        .input-email,
+        .input-telefone,
+        .input-cidade,
+        .input-nome-escola,
+        .input-acompanhante-nome,
+        .input-acompanhante-cpf {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #3C3649;
+            border-radius: 4px;
+            outline: none;
+            background-color: #ececec;
+        }
+
+        .select-perfil,
+        .select-estado,
+        .select-ensino-medio,
+        .select-acompanhado {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #3C3649;
+            border-radius: 4px;
+            outline: none;
+            background-color: #ececec;
+        }
+
+        .checkbox-termos {
+            margin-right: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <div class="form-control-wrapper">
+        <label for="nome" class="label-nome">Nome Completo *</label>
+        <input type="text" id="nome" name="nome" class="input-nome" data-field-type="Text" required="required"
+            data-validation-message="Favor preencher este campo">
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="perfil" class="label-perfil">Você se inscreveu para o processo seletivo 2025? *</label>
+        <select name="perfil" id="perfil" class="select-perfil" data-field-type="Text" required="required"
+            data-validation-message="Please fill out this field.">
+            <option value="" id="" selected="selected"></option>
+            <option value=" Sim, me inscrevi." id=" Sim, me inscrevi."> Sim, me inscrevi.</option>
+            <option value="Não, mas tenho interesse." id="Não, mas tenho interesse.">Não, mas tenho interesse.</option>
+            <option value="Não, sou pai ou responsável" id="Não, sou pai ou responsável">Não, sou pai ou responsável
+            </option>
+            <option value="Não, sou visitante" id="Não, sou visitante">Não, sou visitante</option>
+        </select>
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="cpf" class="label-cpf">CPF (caso pai ou responsável, inserir o CPF do potencial candidato) *</label>
+        <input type="text" id="cpf" name="cpf" class="input-cpf" data-field-type="Text" required="required"
+            data-validation-message="Por favor preencher este campo ">
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="email" class="label-email">Email *</label>
+        <input type="email" id="email" name="email" class="input-email" data-field-type="EmailAddress"
+            data-validation="email" required="required" data-validation-message="Please enter an email address.">
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="telefone" class="label-telefone">Telefone *</label>
+        <input type="text" id="telefone" name="telefone" class="input-telefone" data-field-type="Phone"
+            required="required" data-validation-message="Por favor preencher este campo">
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="cidade" class="label-cidade">Cidade *</label>
+        <input type="text" id="cidade" name="cidade" class="input-cidade" data-field-type="Text" required="required"
+            data-validation-message="Por favor preencher este campo">
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="estado" class="label-estado">Estado *</label>
+        <select name="estado" id="estado" class="select-estado" data-field-type="Text" required="required"
+            data-validation-message="Por favor preencha este campo. ">
+            <option value="" id="" selected="selected"></option>
+            <option value="Acre (AC)" id="Acre (AC)">Acre (AC)</option>
+            <option value="Alagoas (AL)" id="Alagoas (AL)">Alagoas (AL)</option>
+            <option value="Amapá (AP)" id="Amapá (AP)">Amapá (AP)</option>
+            <option value="Amazonas (AM)" id="Amazonas (AM)">Amazonas (AM)</option>
+            <option value="Bahia (BA)" id="Bahia (BA)">Bahia (BA)</option>
+            <option value="Ceará (CE)" id="Ceará (CE)">Ceará (CE)</option>
+            <option value="Distrito Federal (DF)" id="Distrito Federal (DF)">Distrito Federal (DF)</option>
+            <option value="Espírito Santo (ES)" id="Espírito Santo (ES)">Espírito Santo (ES)</option>
+            <option value="Goiás (GO)" id="Goiás (GO)">Goiás (GO)</option>
+            <option value="Maranhão (MA)" id="Maranhão (MA)">Maranhão (MA)</option>
+            <option value="Mato Grosso (MT)" id="Mato Grosso (MT)">Mato Grosso (MT)</option>
+            <option value="Mato Grosso do Sul (MS)" id="Mato Grosso do Sul (MS)">Mato Grosso do Sul (MS)</option>
+            <option value="Minas Gerais (MG)" id="Minas Gerais (MG)">Minas Gerais (MG)</option>
+            <option value="Pará (PA)" id="Pará (PA)">Pará (PA)</option>
+            <option value="Paraíba (PB)" id="Paraíba (PB)">Paraíba (PB)</option>
+            <option value="Paraná (PR)" id="Paraná (PR)">Paraná (PR)</option>
+            <option value="Pernambuco (PE)" id="Pernambuco (PE)">Pernambuco (PE)</option>
+            <option value="Piauí (PI)" id="Piauí (PI)">Piauí (PI)</option>
+            <option value="Rio de Janeiro (RJ)" id="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+            <option value="Rio Grande do Norte (RN)" id="Rio Grande do Norte (RN)">Rio Grande do Norte (RN)</option>
+            <option value="Rio Grande do Sul (RS)" id="Rio Grande do Sul (RS)">Rio Grande do Sul (RS)</option>
+            <option value="Rondônia (RO)" id="Rondônia (RO)">Rondônia (RO)</option>
+            <option value="Roraima (RR)" id="Roraima (RR)">Roraima (RR)</option>
+            <option value="Santa Catarina (SC)" id="Santa Catarina (SC)">Santa Catarina (SC)</option>
+            <option value="São Paulo (SP)" id="São Paulo (SP)">São Paulo (SP)</option>
+            <option value="Sergipe (SE)" id="Sergipe (SE)">Sergipe (SE)</option>
+            <option value="Tocantins (TO)" id="Tocantins (TO)">Tocantins (TO)</option>
+        </select>
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="ensino_medio" class="label-ensino-medio">Qual o ano do Ensino Médio está? *</label>
+        <select name="ensino_medio" id="ensino_medio" class="select-ensino-medio" data-field-type="Text"
+            required="required" data-validation-message="Por favor preencha este campo.">
+            <option value="" id="" selected="selected"></option>
+            <option value="Já concluí" id="Já concluí">Já concluí</option>
+            <option value="1° Ano" id="1° Ano">1° Ano</option>
+            <option value="2° Ano" id="2° Ano">2° Ano</option>
+            <option value="3° Ano" id="3° Ano">3° Ano</option>
+        </select>
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="nome_escola" class="label-nome-escola">Em qual escola você está cursando o Ensino Médio?</label>
+        <input type="text" id="nome_escola" name="nome_escola" class="input-nome-escola" data-field-type="Text">
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="acompanhado" class="label-acompanhado">Você virá acompanhado? *</label>
+        <select name="acompanhado" id="acompanhado" class="select-acompanhado" data-field-type="Text"
+            required="required" data-validation-message="Por favor preencha este campo.">
+            <option value="" id="" selected="selected"></option>
+            <option value="Não, vou sozinho." id="Não, vou sozinho.">Não, vou sozinho.</option>
+            <option value="Sim, 1 acompanhante" id="Sim, 1 acompanhante">Sim, 1 acompanhante</option>
+            <option value="Sim, 2 acompanhantes" id="Sim, 2 acompanhantes">Sim, 2 acompanhantes</option>
+        </select>
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="acompanhate_1_nome" class="label-acompanhantes">Informe nome dos acompanhantes</label>
+        <input type="text" id="acompanhate_1_nome" name="acompanhate_1_nome" class="input-acompanhante-nome"
+            data-field-type="Text">
+    </div>
+
+    <div class="form-control-wrapper">
+        <label for="acompanhate_2_nome" class="label-cpf-acompanhantes">Informe o CPF dos acompanhantes</label>
+        <input type="text" id="acompanhate_2_nome" name="acompanhate_2_nome" class="input-acompanhante-cpf"
+            data-field-type="Text">
+    </div>
+
+    <div class="form-control-wrapper">
+        <input type="checkbox" id="termos" name="termos" class="checkbox-termos" data-field-type="Boolean"
+            required="required" data-validation-message="Por favor selecione este campo ">
+        <label for="termos" class="label-termos">Ao preencher este formulário, você está ciente que a nossa empresa
+            poderá
+            enviar, de tempos em tempos, comunicações e conteúdos de acordo com os seus interesses. Você pode modificar
+            as suas
+            permissões a qualquer momento. *</label>
+    </div>
+
+
+</body>
+
+</html>
